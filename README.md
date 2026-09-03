@@ -39,15 +39,11 @@ validated against CMAPSS ground-truth RUL values.
 
 ---
 
-## Skill in Progress
+## Currently Learning
 
-- [x] ETL pipeline design with chunked processing and generators
-- [x] ML model training, evaluation, and comparison
-- [x] REST API development and containerized deployment
-- [x] Feature engineering for time-series sensor data
-- [ ] Deep learning for time-series (LSTM, Transformers)
-- [ ] MLflow for experiment tracking
-- [ ] Airflow for pipeline orchestration
+- Deep learning for time-series (LSTM, Transformers)
+- MLflow for experiment tracking
+- Airflow for pipeline orchestration
 
 ---
 
