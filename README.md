@@ -1,16 +1,54 @@
-## Hi there 👋
+# Momina Tariq
+Software developer from Rawalpindi, Pakistan. I wanted to be a pilot growing up.
+That did not happen, but the interest in aviation and aerospace never went away.
+Finding out I could work on aviation problems through data engineering and ML was
+what pulled me in this direction. Before pivoting I spent time building web 
+applications and backends in JavaScript. The three projects below are where that pivot
+landed.
 
-<!--
-**Momina0197/Momina0197** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[Flight-ETL-Pipeline](https://github.com/Momina0197/Flight-ETL-Pipeline)**  
+ETL pipeline processing 13.7 million US domestic flight records from raw BTS
+government CSVs into PostgreSQL. Generator-based chunked reader, multi-stage
+cleaning, interactive query CLI. Carrier delays (5.14 min avg) outweigh weather
+delays (0.82 min) across all 13.7M flights.
+
+**[Jet-Engine-RUL](https://github.com/Momina0197/Jet-Engine-RUL)**  
+Predictive maintenance system trained on NASA CMAPSS across all four sub-datasets.
+Compared three classical models: Linear Regression, Random Forest, and XGBoost.
+Random Forest achieved the lowest RMSE on all four sub-datasets, best result FD002
+RMSE 17.45, R2 0.835. Rolling 5-cycle mean feature engineering per sensor per
+engine. Classical models only. Sequential approaches like LSTM are a known gap.
+
+**[Jet-Engine-RUL-api](https://github.com/Momina0197/Jet-Engine-RUL-api)**  
+The RUL model deployed as a REST API with Streamlit frontend. Accepts 1-5 sensor
+reading cycles, reconstructs rolling-mean features at inference using the exact
+same pipeline as training. Models cut from 771MB to 97.8MB. Live predictions
+validated against CMAPSS ground-truth RUL values.
+
+---
+
+## Stack
+**Data:** Python, Pandas, NumPy, SQLAlchemy, PostgreSQL  
+**ML:** scikit-learn, XGBoost, joblib  
+**Deployment:** FastAPI, Streamlit, Docker, Docker Compose  
+**Other:** React, Node.js, Git
+
+---
+
+## Skill in Progress
+
+- [x] ETL pipeline design with chunked processing and generators
+- [x] ML model training, evaluation, and comparison
+- [x] REST API development and containerized deployment
+- [x] Feature engineering for time-series sensor data
+- [ ] Deep learning for time-series (LSTM, Transformers)
+- [ ] MLflow for experiment tracking
+- [ ] Airflow for pipeline orchestration
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/momina-tariq-058262264)
