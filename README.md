@@ -31,11 +31,17 @@ validated against CMAPSS ground-truth RUL values.
 
 ---
 
+## Technical Writing
+
+* **Medium:** [What Three Classical Models Taught Me About Predicting Jet Engine Failure](https://medium.com/@mominatariq58/what-three-classical-models-taught-me-about-predicting-jet-engine-failure-865fef200279)  
+  *An analysis evaluating classical feature-windowing models against published sequential deep learning baselines (Saxena et al., 2008; Heimes, 2008).*
+
+---
+
 ## Stack
-**Data:** Python, Pandas, NumPy, SQLAlchemy, PostgreSQL  
-**ML:** scikit-learn, XGBoost, joblib  
-**Deployment:** FastAPI, Streamlit, Docker, Docker Compose  
-**Other:** React, Node.js, Git
+**Data & ML**: Python, Pandas, NumPy, scikit-learn, XGBoost, PostgreSQL, SQLAlchemy
+**Deployment & Backend**: FastAPI, Streamlit, Docker, Docker Compose, REST APIs, Git
+**Web & Legacy**: JavaScript, TypeScript, React, Node.js, Odoo 18
 
 ---
 
