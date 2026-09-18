@@ -38,10 +38,11 @@ validated against CMAPSS ground-truth RUL values.
 
 ---
 
-## Stack
-**Data & ML**: Python, Pandas, NumPy, scikit-learn, XGBoost, PostgreSQL, SQLAlchemy
-**Deployment & Backend**: FastAPI, Streamlit, Docker, Docker Compose, REST APIs, Git
-**Web & Legacy**: JavaScript, TypeScript, React, Node.js, Odoo 18
+## Tech Stack
+
+**Data & ML:** Python, Pandas, NumPy, scikit-learn, XGBoost, PostgreSQL, SQLAlchemy  
+**Deployment & Backend:** FastAPI, Streamlit, Docker, Docker Compose, REST APIs, Git  
+**Web & Legacy:** JavaScript, TypeScript, React, Node.js, Odoo 18
 
 ---
 
